@@ -26,6 +26,7 @@ function ganador(jugadaP1, jugadaPC) {
     }
 }
 
+
 let jugador = prompt("Elige: Piedra, Papel o Tijera");
 let pc = getRandom();
 if ((jugador != "Piedra") || (jugador != "Papel") || (jugador != "Tijera")){
