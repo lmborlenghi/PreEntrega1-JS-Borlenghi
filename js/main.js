@@ -15,7 +15,7 @@ function getRandom() {
 function ganador(jugadaP1, jugadaPC) {
     if (jugadaP1 === jugadaPC) {
         return "Empate"; //Si son iguales, es empate.
-    } else if ( //Condiciones en las que gana el Jugador1.
+    } else if ( //Condiciones en las que gana el Jugador1.git 
         (jugadaP1 === "Piedra" && jugadaPC === "Tijera") ||
         (jugadaP1 === "Papel" && jugadaPC === "Piedra") ||
         (jugadaP1 === "Tijera" && jugadaPC === "Papel")
